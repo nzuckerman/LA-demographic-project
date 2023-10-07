@@ -332,7 +332,7 @@ window.bind('r',flip_reg_line)
 regression_var = tk.StringVar()
 regression_var.set('Select an area')
 
-instructions = tk.Label(window, text='z: zoom out c: clear selection \ni: income e: elevation \n').pack(side='right')
+instructions = tk.Label(window, text='r: toggle regression line z: zoom out c: clear selection \ni: income e: elevation \n').pack(side='right')
 lbl_reg = tk.Label(window, textvariable=regression_var).pack(side='top')
 
 zoomed = False
